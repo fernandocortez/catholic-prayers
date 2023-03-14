@@ -1,0 +1,20 @@
+---
+import { CollectionEntry, getCollection } from 'astro:content';
+import Oracion from '../../layouts/Oracion.astro';
+
+export async function getStaticPaths() {
+	const oraciones = await getCollection('oraciones');
+	return oraciones.map((oracion) => ({
+		params: { slug: oracion.slug },
+		props: oracion,
+	}));
+}
+type Props = CollectionEntry<'oraciones'>;
+
+const oracion = Astro.props;
+const { Content } = await oracion.render();
+---
+
+<Oracion {...oracion.data}>
+	<Content />
+</Oracion>

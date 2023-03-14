@@ -1,0 +1,32 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE__EN, SITE_DESCRIPTION__EN } from '../consts';
+
+type Props = CollectionEntry<'prayers'>['data'];
+
+const { title } = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE__EN} description={SITE_DESCRIPTION__EN} />
+		<style>
+			.title {
+				font-size: 2em;
+				margin: 0.25em 0 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<Header title={SITE_TITLE__EN} />
+		<main>
+			<article>
+				<h1 class="title">{title}</h1>
+				<slot />
+			</article>
+		</main>
+	</body>
+</html>

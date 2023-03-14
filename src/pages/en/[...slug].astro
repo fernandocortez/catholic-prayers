@@ -1,0 +1,20 @@
+---
+import { CollectionEntry, getCollection } from 'astro:content';
+import Prayer from '../../layouts/Prayer.astro';
+
+export async function getStaticPaths() {
+	const prayers = await getCollection('prayers');
+	return prayers.map((prayer) => ({
+		params: { slug: prayer.slug },
+		props: prayer,
+	}));
+}
+type Props = CollectionEntry<'prayers'>;
+
+const prayer = Astro.props;
+const { Content } = await prayer.render();
+---
+
+<Prayer {...prayer.data}>
+	<Content />
+</Prayer>

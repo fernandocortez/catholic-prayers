@@ -1,0 +1,19 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE__EN, SITE_DESCRIPTION__EN } from '../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE__EN} description={SITE_DESCRIPTION__EN} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE__EN} />
+		<main>
+			<p>If you are not automatically redirected, please select one of the available languages above.</p>
+  		<p>Si no se le redirige automáticamente, seleccione uno de los idiomas disponibles arriba.</p>
+		</main>
+	</body>
+</html>
