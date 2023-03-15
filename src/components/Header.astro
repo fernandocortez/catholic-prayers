@@ -9,24 +9,13 @@ const { title } = Astro.props;
 ---
 
 <header>
-	<h2>
-		{title}
-	</h2>
 	<nav>
-		<HeaderLink href="/en">English</HeaderLink>
-		&vert;
-		<HeaderLink href="/es">Español</HeaderLink>
+		<ul>
+			<li><strong>{title}</strong></li>
+		</ul>
+		<ul>
+			<li><HeaderLink href="/en">English</HeaderLink></li>
+			<li><HeaderLink href="/es">Español</HeaderLink></li>
+		</ul>
 	</nav>
 </header>
-<style>
-	header {
-		margin: 0em 0 2em;
-	}
-	h2 {
-		margin: 0.5em 0;
-	}
-	nav {
-		display: flex;
-		column-gap: 0.5rem;
-	}
-</style>

@@ -12,19 +12,13 @@ const { title } = Astro.props;
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE__EN} description={SITE_DESCRIPTION__EN} />
-		<style>
-			.title {
-				font-size: 2em;
-				margin: 0.25em 0 0;
-			}
-		</style>
 	</head>
 
-	<body>
+	<body class="container">
 		<Header title={SITE_TITLE__EN} />
 		<main>
 			<article>
-				<h1 class="title">{title}</h1>
+				<h1>{title}</h1>
 				<slot />
 			</article>
 		</main>
