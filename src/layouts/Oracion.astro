@@ -9,13 +9,13 @@ type Props = CollectionEntry<'oraciones'>['data'];
 const { title } = Astro.props;
 ---
 
-<html lang="es">
+<html lang="es" data-theme="light">
 	<head>
 		<BaseHead title={SITE_TITLE__ES} description={SITE_DESCRIPTION__ES} />
 	</head>
 
 	<body class="container">
-		<Header title={SITE_TITLE__ES} />
+		<Header link="/es" title={SITE_TITLE__ES} />
 		<main>
 			<article>
 				<h1>{title}</h1>

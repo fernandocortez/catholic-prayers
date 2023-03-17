@@ -2,20 +2,18 @@
 import HeaderLink from './HeaderLink.astro';
 
 export interface Props {
+	link: string;
 	title: string;
 }
 
-const { title } = Astro.props;
+const { link = "/", title } = Astro.props;
 ---
 
 <header>
 	<nav>
-		<ul>
-			<li><strong>{title}</strong></li>
-		</ul>
-		<ul>
-			<li><HeaderLink href="/en">English</HeaderLink></li>
-			<li><HeaderLink href="/es">Español</HeaderLink></li>
-		</ul>
+		<a href={link}>
+			<img src="/favicon.svg">
+			<strong>{title}</strong>
+		</a>
 	</nav>
 </header>

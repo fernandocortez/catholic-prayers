@@ -1,0 +1,9 @@
+header a {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 0.25rem;
+}
+
+header nav img {
+  height: 1rem;
+}

@@ -1,13 +1,2 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36">
-  <path fill="#000" d="M22.25 4h-8.5a1 1 0 0 0-.96.73l-5.54 19.4a.5.5 0 0 0 .62.62l5.05-1.44a2 2 0 0 0 1.38-1.4l3.22-11.66a.5.5 0 0 1 .96 0l3.22 11.67a2 2 0 0 0 1.38 1.39l5.05 1.44a.5.5 0 0 0 .62-.62l-5.54-19.4a1 1 0 0 0-.96-.73Z"/>
-  <path fill="url(#gradient)" d="M18 28a7.63 7.63 0 0 1-5-2c-1.4 2.1-.35 4.35.6 5.55.14.17.41.07.47-.15.44-1.8 2.93-1.22 2.93.6 0 2.28.87 3.4 1.72 3.81.34.16.59-.2.49-.56-.31-1.05-.29-2.46 1.29-3.25 3-1.5 3.17-4.83 2.5-6-.67.67-2.6 2-5 2Z"/>
-  <defs>
-    <linearGradient id="gradient" x1="16" x2="16" y1="32" y2="24" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#000"/>
-      <stop offset="1" stop-color="#000" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-	<style>
-    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
-  </style>
-</svg>
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:#020202;stroke-miterlimit:10;stroke-width:1.92px;}</style></defs><path class="cls-1" d="M5.29,15.83V9.12A1.92,1.92,0,0,0,3.38,7.21h0A1.92,1.92,0,0,0,1.46,9.12v7.29A3.79,3.79,0,0,0,2.3,18.8l3,3.74v1"/><path class="cls-1" d="M7.21,17.75,5.89,16.43A2,2,0,0,1,5.29,15h0a2,2,0,0,1,2-2h0a2,2,0,0,1,1.44.59L11.4,16.2a2,2,0,0,1,.6,1.43V23.5"/><path class="cls-1" d="M18.71,15.83V9.12a1.92,1.92,0,0,1,1.91-1.91h0a1.92,1.92,0,0,1,1.91,1.91v7.29a3.79,3.79,0,0,1-.84,2.39l-3,3.74v1"/><path class="cls-1" d="M16.79,17.75l1.32-1.32a2,2,0,0,0,.6-1.44h0a2,2,0,0,0-2-2h0a2,2,0,0,0-1.44.59L12.6,16.2a2,2,0,0,0-.6,1.43V23.5"/><line class="cls-1" x1="12" y1="0.5" x2="12" y2="11.04"/><line class="cls-1" x1="8.17" y1="4.01" x2="15.83" y2="4.01"/></svg>

@@ -1,5 +1,5 @@
 ---
-title: "Prayer to St. Rafael For the Wise Choice of a Marriage Partner"
+title: "Prayer to St. Raphael For the Wise Choice of a Marriage Partner"
 ---
 
 O Glorious St. Raphael, Patron and Lover of the Young, I call upon thee and plead with thee for thy help. In all confidence I open my heart to thee, to beg thy guidance and assistance in the important task of planning my future. Obtain for me through thy intercession the light of God's grace, so that I may decide wisely concerning the person who is to be my partner through life. O Angel of Happy Meetings, lead us by the hand to find each other. May all our movements be guided by thy light and transfigured by thy joy. As thou didst lead the young Tobias to Sara and opened up for him a new life of happiness with her in holy marriage, lead me to such a one whom in thine angelic wisdom thou dost judge best suited to be united with me in marriage.
