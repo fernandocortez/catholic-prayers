@@ -1,9 +1,9 @@
-header a {
+header .home a {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   column-gap: 0.25rem;
 }
 
-header nav img {
+header .home img {
   height: 1rem;
 }
