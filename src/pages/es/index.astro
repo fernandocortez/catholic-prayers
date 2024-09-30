@@ -16,7 +16,13 @@ const oraciones = (await getCollection('oraciones')).sort(
 		<BaseHead title={SITE_TITLE__ES} description={SITE_DESCRIPTION__ES} />
 	</head>
 	<body class="container">
-		<Header link="/es" title={SITE_TITLE__ES} />
+		<Header link="/es" title={SITE_TITLE__ES}>
+			<div class="languages">
+				<a href="/en">en</a>
+				|
+				<a href="/es">es</a>
+			</div>
+		</Header>
 		<main>
 			<section>
 				<ul>

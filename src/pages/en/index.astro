@@ -16,7 +16,13 @@ const prayers = (await getCollection('prayers')).sort(
 		<BaseHead title={SITE_TITLE__EN} description={SITE_DESCRIPTION__EN} />
 	</head>
 	<body class="container">
-		<Header link="/en" title={SITE_TITLE__EN} />
+		<Header link="/en" title={SITE_TITLE__EN}>
+			<div class="languages">
+				<a href="/en">en</a>
+				|
+				<a href="/es">es</a>
+			</div>
+		</Header>
 		<main>
 			<section>
 				<ul>
