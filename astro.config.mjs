@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://catholic-prayers-oraciones-catolicas.netlify.app',
+  site: 'https://catholic-prayers.pages.dev/',
   integrations: [mdx(), sitemap()],
 });
