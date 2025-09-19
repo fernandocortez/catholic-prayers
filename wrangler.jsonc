@@ -1,0 +1,6 @@
+{
+    "name": "catholic-prayers",
+    "assets": {
+        "directory": "./dist"
+    }
+}
